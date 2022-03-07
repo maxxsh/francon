@@ -1,0 +1,263 @@
+#city_buildings_wrapper {
+  width: 100%;
+  max-width: 1100px;
+  position: relative;
+  height: 100%;
+  margin: 0 auto;
+}
+
+#city_buildings {
+  max-width: 50%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  overflow: visible;
+  opacity: 0.3;
+  filter: drop-shadow(12px 12px 7px rgba(0, 0, 0, 0.5));
+}
+#city_buildings path {
+  filter: drop-shadow(12px 12px 7px rgba(0, 0, 0, 0.5));
+}
+
+#building_1 {
+  animation-name: building;
+  animation-duration: 0.5s;
+  animation-delay: 2s;
+  transform: translateY(200%) translateZ(-1px);
+  animation-fill-mode: forwards;
+}
+
+#building_2 {
+  animation-name: building;
+  animation-duration: 0.5s;
+  animation-delay: 1s;
+  transform: translateY(200%) translateZ(-1px);
+  animation-fill-mode: forwards;
+}
+#main_building {
+  animation-name: building;
+  animation-duration: 0.5s;
+  animation-delay: 3s;
+  transform: translateY(200%) translateZ(-1px);
+  animation-fill-mode: forwards;
+}
+#main_building_window {
+  animation-name: building_window;
+  animation-duration: 0.3s;
+  animation-delay: 5s;
+  opacity: 0;
+  animation-fill-mode: forwards;
+}
+#train {
+  animation: train 20s infinite;
+  filter: drop-shadow(12px 12px 7px rgba(0, 0, 0, 0.5));
+}
+
+@keyframes building {
+  0% {
+    transform: translateY(200%) translateZ(-1px);
+  }
+  100% {
+    transform: translateY(0%) translateZ(-1px);
+  }
+}
+@keyframes building_window {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes train {
+  0% {
+    transform: translateX(-300%);
+  }
+  30% {
+    transform: translateX(-300%);
+  }
+  50% {
+    transform: translateX(0%);
+  }
+  80% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(200%);
+  }
+}
+
+.cls-1 {
+  fill: url(#linear-gradient);
+}
+.cls-2 {
+  fill: url(#linear-gradient-2);
+}
+.cls-3 {
+  fill: url(#linear-gradient-3);
+}
+.cls-4 {
+  fill: url(#linear-gradient-4);
+}
+.cls-5 {
+  fill: #f3ecc3;
+}
+.cls-6 {
+  fill: url(#linear-gradient-5);
+}
+.cls-7 {
+  fill: url(#linear-gradient-6);
+}
+.cls-8 {
+  fill: url(#linear-gradient-7);
+}
+.cls-9 {
+  fill: url(#linear-gradient-8);
+}
+.cls-10 {
+  fill: url(#linear-gradient-9);
+}
+.cls-11 {
+  fill: url(#linear-gradient-10);
+}
+.cls-12 {
+  fill: url(#linear-gradient-11);
+}
+.cls-13 {
+  fill: url(#linear-gradient-12);
+}
+.cls-14 {
+  fill: url(#linear-gradient-13);
+}
+.cls-15 {
+  fill: url(#linear-gradient-15);
+}
+.cls-16 {
+  fill: url(#linear-gradient-16);
+}
+.cls-17 {
+  fill: url(#linear-gradient-17);
+}
+.cls-18 {
+  fill: url(#linear-gradient-18);
+}
+.cls-19 {
+  fill: none;
+}
+.cls-20 {
+  fill: url(#linear-gradient-19);
+}
+.cls-21 {
+  fill: url(#linear-gradient-20);
+}
+.cls-22 {
+  fill: url(#linear-gradient-21);
+}
+.cls-23 {
+  fill: url(#linear-gradient-22);
+}
+.cls-24 {
+  fill: url(#linear-gradient-23);
+}
+.cls-25 {
+  fill: url(#linear-gradient-24);
+}
+.cls-26 {
+  fill: url(#linear-gradient-25);
+}
+.cls-27 {
+  fill: url(#linear-gradient-26);
+}
+.cls-28 {
+  fill: url(#linear-gradient-27);
+}
+.cls-29 {
+  fill: url(#linear-gradient-28);
+}
+.cls-30 {
+  fill: url(#linear-gradient-29);
+}
+.cls-31 {
+  fill: url(#linear-gradient-30);
+}
+.cls-32 {
+  fill: url(#linear-gradient-31);
+}
+.cls-33 {
+  fill: url(#linear-gradient-32);
+}
+.cls-34 {
+  fill: url(#linear-gradient-33);
+}
+.cls-35 {
+  fill: url(#linear-gradient-34);
+}
+.cls-36 {
+  fill: url(#linear-gradient-35);
+}
+.cls-37 {
+  fill: url(#linear-gradient-36);
+}
+.cls-38 {
+  fill: url(#linear-gradient-37);
+}
+.cls-39 {
+  fill: url(#linear-gradient-39);
+}
+.cls-40 {
+  fill: url(#linear-gradient-40);
+}
+.cls-41 {
+  fill: url(#linear-gradient-41);
+}
+.cls-42 {
+  fill: url(#linear-gradient-42);
+}
+.cls-43 {
+  fill: url(#linear-gradient-43);
+}
+.cls-44 {
+  fill: url(#linear-gradient-44);
+}
+.cls-45 {
+  fill: #70b7c2;
+}
+.cls-46 {
+  fill: #69acb6;
+}
+.cls-47 {
+  fill: #0097ab;
+}
+.cls-48 {
+  fill: #4c5667;
+}
+.cls-49 {
+  fill: #3f4857;
+}
+.cls-50 {
+  fill: #65a5af;
+}
+.cls-51 {
+  fill: #6bafb9;
+}
+.cls-52 {
+  fill: #f5864d;
+}
+.cls-53 {
+  fill: #545f70;
+}
+.cls-54 {
+  fill: #5e6a7d;
+}
+.cls-55 {
+  fill: #576274;
+}
+.cls-56 {
+  fill: #596477;
+}
+.cls-57 {
+  fill: #566173;
+}
+.cls-58 {
+  fill: #657184;
+}
