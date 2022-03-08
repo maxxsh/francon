@@ -16,4 +16,5 @@ export const PlainPageContent = styled.div`
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
+  overflow-wrap: break-word;
 `;
