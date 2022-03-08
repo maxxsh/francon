@@ -18,6 +18,9 @@ export const InfoWrapper = styled.div`
   margin-left: auto;
   padding: 0 24px;
   justify-content: center;
+  @media screen and (max-width: 768px) {
+    height: auto;
+  }
 `;
 export const InfoRow = styled.div`
   display: grid;
@@ -44,7 +47,10 @@ export const Column2 = styled.div`
 export const TextWrapper = styled.div`
   max-width: 540px;
   padding-top: 0;
-  padding-bottom: 60px;
+
+  @media screen and (min-width: 768px) {
+    padding-bottom: 60px;
+  }
 `;
 export const TopLine = styled.p`
   color: var(--primary-color);

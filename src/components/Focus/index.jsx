@@ -1,5 +1,4 @@
 import React from "react";
-import Icon3 from "../../images/svg-3.svg";
 import Card from "../card/Card";
 import { FocusContainer, FocusH1, FocusWrapper } from "./FocusElements";
 

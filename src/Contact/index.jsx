@@ -11,6 +11,8 @@ import {
   FormLabel,
   FormButton,
   Text,
+  CloseIcon,
+  CloseIconLink,
 } from "./ContactElements";
 
 const Contact = ({ title = "Let’s connect." }) => {
@@ -25,6 +27,9 @@ const Contact = ({ title = "Let’s connect." }) => {
           <Icon to="/">Francon Capital</Icon>
           <FormContent>
             <Form action="#">
+              <CloseIconLink to="/">
+                <CloseIcon />
+              </CloseIconLink>
               <FormH1>{title}</FormH1>
               <FormLabel htmlFor="for">Name</FormLabel>
               <FormInput htmlFor="name" required />

@@ -1,15 +1,22 @@
 import styled from "styled-components";
 import { Link } from "react-router-dom";
+import { FaTimes } from "react-icons/fa";
 
 export const Container = styled.div`
-  min-height: 692px;
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  top: 0;
-  z-index: 0;
-  overflow: hidden;
+  // min-height: 692px;
+  // position: fixed;
+  // bottom: 0;
+  // left: 0;
+  // right: 0;
+  // top: 0;
+  // z-index: 0;
+  // overflow: hidden;
+  // background: linear-gradient(
+  //   108deg,
+  //   rgba(1, 147, 86, 1) 0%,
+  //   rgba(10, 201, 122, 1) 100%
+  // );
+  min-height: 100vh;
   background: linear-gradient(
     108deg,
     rgba(1, 147, 86, 1) 0%,
@@ -17,14 +24,14 @@ export const Container = styled.div`
   );
 `;
 export const FormWrap = styled.div`
-  height: 100%;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
 
-  @media screen and (max-width: 480px) {
-    height: 80%;
-  }
+  // @media screen and (max-width: 480px) {
+  //   height: 80%;
+  // }
 `;
 export const Icon = styled(Link)`
   margin-left: 32px;
@@ -59,10 +66,11 @@ export const Form = styled.form`
   margin: 0 auto;
   padding: 80px 32px;
   border-radius: 4px;
+  position: relative;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.9);
 
   @media screen and (max-width: 480px) {
-    padding: 32px 32px;
+    padding: 32px 20px;
   }
 `;
 export const FormH1 = styled.h1`
@@ -73,18 +81,18 @@ export const FormH1 = styled.h1`
   text-align: center;
 `;
 export const FormLabel = styled.label`
-  margin-bottom: 8px;
+  margin-bottom: 3%;
   font-size: 14px;
   color: #fff;
 `;
 export const FormInput = styled.input`
-  padding: 16px 16px;
-  margin-bottom: 32px;
+  padding: 5%;
+  margin-bottom: 7%;
   border-radius: 4px;
 `;
 export const FormTextaria = styled.textarea`
-  padding: 16px 16px;
-  margin-bottom: 32px;
+  padding: 5%;
+  margin-bottom: 7%;
   border-radius: 4px;
 `;
 export const FormButton = styled.button`
@@ -101,4 +109,15 @@ export const Text = styled.span`
   margin-top: 24px;
   color: #fff;
   font-size: 14px;
+`;
+export const CloseIconLink = styled(Link)`
+  text-decoration: none;
+  color: #fff;
+  font-size: 26px;
+  position: absolute;
+  top: 14px;
+  right: 20px;
+`;
+export const CloseIcon = styled(FaTimes)`
+  color: #fff;
 `;
